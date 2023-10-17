@@ -1,6 +1,7 @@
 import './App.css';
 import Screen from './components/Screen';
 import Button from './components/Button';
+import ClearButton from './components/ClearButton';
 import inspiredCodeLogo from "./images/logo-large.png";
 
 function App() {
@@ -40,7 +41,7 @@ function App() {
           <Button>/</Button>
         </div>
         <div className='row'>
-
+          <ClearButton>Clear</ClearButton>
         </div>
       </div>
     </div>
