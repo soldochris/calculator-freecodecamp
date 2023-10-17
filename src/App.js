@@ -1,4 +1,5 @@
 import './App.css';
+import Screen from './components/Screen';
 import Button from './components/Button';
 import inspiredCodeLogo from "./images/logo-large.png";
 
@@ -13,6 +14,7 @@ function App() {
         />
       </div>
       <div className='calculator-container'>
+        <Screen />
         <div className='row'>
           <Button>1</Button>
           <Button>2</Button>
