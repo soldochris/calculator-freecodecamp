@@ -8,12 +8,13 @@ const Button = (props) => {
   };
 
   return (
-    <div
+    <button
       className={`button-container ${isOperator(props.children) ? "operator" : ""}`.trimEnd()}
+      onClick={() => props.clickHandler(props.children)}
     >
       {props.children}
-    </div>
+    </button>
   )
-}
+};
 
 export default Button

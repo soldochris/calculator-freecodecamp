@@ -6,9 +6,9 @@
   justify-content: center;
   font-weight: bold;
   font-size: 38px;
-  background-color: #1b1b32;
+  background-color: #33334d;
   color: #fff;
-  border-radius: 25px;
+  border-radius: 14px;
   border: 2px solid #fff;
   margin: 4px;
   cursor: pointer;
@@ -16,13 +16,13 @@
 }
 
 .button-container:hover{
-  background-color: #5a01a7;
+  background-color: #4d2470;
 }
 
 .operator{
-  background-color: #00471b;
+  background-color: #0a5527;
 }
 
 .operator:hover{
-  background-color: #ff6600;
+  background-color: #b47f5d;
 }

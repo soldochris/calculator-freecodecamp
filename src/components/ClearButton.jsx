@@ -1,11 +1,11 @@
 import React from 'react';
 import "../styles/ClearButton.css"
 
-const ClearButton = ({ children }) => {
+const ClearButton = ({ children, clearHandler }) => {
   return (
-    <div className='clear-button'>
+    <button className='clear-button' onClick={clearHandler}>
       {children}
-    </div>
+    </button>
   )
 }
 
